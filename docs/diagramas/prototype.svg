@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="67" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#166579">Prototype · variantes independientes</text>
+<rect x="35" y="130" width="490" height="285" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="52" y="177" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">RegistroPrototipos</text>
+<polyline points="35,195 525,195" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="52" y="239" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Registrar(id, plantilla)</text>
+<text x="52" y="281" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Consultar(id): VistaUnidad</text>
+<text x="52" y="323" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Clonar(id): Unidad</text>
+<text x="52" y="365" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ CrearVariante(...): Unidad</text>
+<rect x="600" y="110" width="440" height="160" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="617" y="148" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#166579">«interface»</text>
+<text x="617" y="189" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">IPrototipoUnidad</text>
+<polyline points="600,215 1040,215" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="617" y="259" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Clonar(): Unidad</text>
+<rect x="600" y="440" width="440" height="205" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="617" y="487" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">Unidad</text>
+<polyline points="600,505 1040,505" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="617" y="549" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Clonar(): Unidad</text>
+<text x="617" y="591" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ ClonarConAjustes(...)</text>
+<text x="617" y="633" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Nuevo Guid por clon</text>
+<rect x="1120" y="130" width="445" height="155" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="1137" y="168" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#166579">«interface»</text>
+<text x="1137" y="209" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">IEspecie</text>
+<polyline points="1120,235 1565,235" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="1137" y="279" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Referencia inmutable</text>
+<rect x="35" y="750" width="490" height="155" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="52" y="797" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">ServicioPreparacion</text>
+<polyline points="35,815 525,815" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="52" y="859" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Solicita clones y variantes</text>
+<rect x="1120" y="440" width="445" height="150" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="1137" y="487" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">Estadisticas</text>
+<polyline points="1120,505 1565,505" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="1137" y="549" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Clonar()</text>
+<rect x="600" y="750" width="440" height="175" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="617" y="788" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#166579">«interface»</text>
+<text x="617" y="829" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">IItem</text>
+<polyline points="600,855 1040,855" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="617" y="899" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Copiar()</text>
+<rect x="1120" y="750" width="445" height="175" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="1137" y="788" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#166579">«interface»</text>
+<text x="1137" y="829" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">IEstadoPersonaje</text>
+<polyline points="1120,855 1565,855" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="1137" y="899" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Clonar()</text>
+<polyline points="820,440 820,270" fill="none" stroke="#183348" stroke-width="3" stroke-dasharray="10 8"/>
+<polygon points="820,270 831.5,293.0 808.5,293.0" fill="white" stroke="#183348" stroke-width="3"/>
+<polyline points="280,750 280,415" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="287.5,430.0 280,415 272.5,430.0" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="65" y="678" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#183348">usa el registro</text>
+<polyline points="480,415 480,525 600,525" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="585.0,532.5 600,525 585.0,517.5" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="45" y="493" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#183348">protege originales</text>
+<text x="45" y="533" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#183348">y devuelve clones</text>
+<polyline points="1040,475 1080,475 1080,210 1120,210" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="1105.0,217.5 1120,210 1105.0,202.5" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="1150" y="363" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#183348">comparte especie</text>
+<polyline points="1040,540 1120,540" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="1105.0,547.5 1120,540 1105.0,532.5" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="820,645 820,750" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="812.5,735.0 820,750 827.5,735.0" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="850" y="717" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#183348">copia inventario</text>
+<polyline points="1040,600 1080,600 1080,825 1120,825" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="1105.0,832.5 1120,825 1105.0,817.5" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="1140" y="678" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#183348">copia estado</text>
+<text x="40" y="976" font-family="Arial, sans-serif" font-size="25" font-weight="normal" fill="#526875">UML parcial · + público · # protegido · triángulo: herencia/realización · flecha: uso/referencia</text>
+</svg>

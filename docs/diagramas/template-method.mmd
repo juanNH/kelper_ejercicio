@@ -1,0 +1,23 @@
+classDiagram
+    class TurnoUnidad {
+        <<abstract>>
+        +EjecutarTurno() ResultadoAccion
+        #Iniciar()
+        #Decidir()*
+        #Actuar()*
+        #Finalizar()
+    }
+    TurnoUnidad <|-- TurnoSoldado
+    TurnoUnidad <|-- TurnoMedico
+    TurnoUnidad <|-- TurnoFrancotirador
+    TurnoUnidad <|-- TurnoComandante
+    TurnoUnidad --> Unidad
+    TurnoSoldado --> ContextoTurno
+    TurnoMedico --> ContextoTurno
+    TurnoFrancotirador --> ContextoTurno
+    TurnoComandante --> ContextoTurno
+    ContextoTurno --> IServicioCombate
+    IServicioTurnos <|.. ServicioTurnos
+    ServicioTurnos ..> TurnoUnidad : crea segun rol
+    ServicioTurnos o-- ResultadoTurno : historial por etapas
+    TurnosUnidadControl --> IServicioTurnos

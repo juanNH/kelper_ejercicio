@@ -1,0 +1,27 @@
+classDiagram
+    class IEspecie {
+        <<interface>>
+        Nombre
+        Color
+        PlanetaOrigen
+        Dieta
+    }
+    class FabricaEspecies {
+        Dictionary~string,IEspecie~ especies
+        ObtenerEspecie(nombre) IEspecie
+        ObtenerTodas()
+        CantidadCreadas
+    }
+    class Tripulante {
+        Id
+        Nombre
+        Rango
+    }
+    IEspecie <|.. Especie
+    FabricaEspecies o-- IEspecie : cache por nombre
+    Tripulante --> IEspecie : estado compartido
+    DemostradorFlyweight --> FabricaEspecies : obtiene cinco instancias
+    DemostradorFlyweight ..> Tripulante : genera 10000
+    ServicioPreparacion --> FabricaEspecies
+    ServicioPreparacion ..> DemostradorFlyweight
+    TripulantesControl --> IPreparacionMision

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="67" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#166579">Flyweight · 10.000 tripulantes / 5 especies</text>
+<rect x="35" y="125" width="580" height="330" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="52" y="172" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">FabricaEspecies</text>
+<polyline points="35,190 615,190" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="52" y="234" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">- Dictionary&lt;string, IEspecie&gt;</text>
+<text x="52" y="276" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ ObtenerEspecie(nombre)</text>
+<text x="52" y="318" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ ObtenerTodas()</text>
+<text x="52" y="360" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ CantidadCreadas</text>
+<rect x="1060" y="125" width="505" height="335" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="1077" y="163" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#166579">«interface»</text>
+<text x="1077" y="204" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">IEspecie</text>
+<polyline points="1060,230 1565,230" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="1077" y="274" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Nombre · Color</text>
+<text x="1077" y="316" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">PlanetaOrigen · Dieta</text>
+<text x="1077" y="358" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Estado intrínseco inmutable</text>
+<rect x="1060" y="615" width="505" height="145" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="1077" y="662" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">Especie</text>
+<polyline points="1060,680 1565,680" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="1077" y="724" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Implementa datos de especie</text>
+<rect x="655" y="615" width="355" height="300" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="672" y="662" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">Tripulante</text>
+<polyline points="655,680 1010,680" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="672" y="724" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Id · Nombre · Rango</text>
+<text x="672" y="766" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Especie: IEspecie</text>
+<text x="672" y="808" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Datos particulares</text>
+<rect x="35" y="615" width="565" height="180" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="52" y="662" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">DemostradorFlyweight</text>
+<polyline points="35,680 600,680" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="52" y="724" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Generar()</text>
+<text x="52" y="766" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Cuenta referencias reales</text>
+<rect x="35" y="900" width="565" height="135" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="52" y="947" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">ServicioPreparacion</text>
+<polyline points="35,965 600,965" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="52" y="1009" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Expone la demostración</text>
+<polyline points="615,250 1060,250" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="1045.0,257.5 1060,250 1045.0,242.5" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="685" y="234" font-family="Arial, sans-serif" font-size="29" font-weight="normal" fill="#183348">caché por nombre</text>
+<polyline points="1310,615 1310,460" fill="none" stroke="#183348" stroke-width="3" stroke-dasharray="10 8"/>
+<polygon points="1310,460 1321.5,483.0 1298.5,483.0" fill="white" stroke="#183348" stroke-width="3"/>
+<polyline points="830,615 830,395 1060,395" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="1045.0,402.5 1060,395 1045.0,387.5" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="680" y="509" font-family="Arial, sans-serif" font-size="29" font-weight="normal" fill="#183348">comparte</text>
+<polyline points="315,615 315,455" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="322.5,470.0 315,455 307.5,470.0" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="75" y="539" font-family="Arial, sans-serif" font-size="29" font-weight="normal" fill="#183348">solicita 5 instancias</text>
+<polyline points="600,705 655,705" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="640.0,712.5 655,705 640.0,697.5" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="410" y="852" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#183348">genera 10.000</text>
+<polyline points="315,900 315,795" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="322.5,810.0 315,795 307.5,810.0" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="40" y="1076" font-family="Arial, sans-serif" font-size="25" font-weight="normal" fill="#526875">UML parcial · + público · # protegido · triángulo: herencia/realización · flecha: uso/referencia</text>
+</svg>

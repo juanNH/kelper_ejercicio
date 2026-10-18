@@ -1,0 +1,18 @@
+classDiagram
+    class IPrototipoUnidad {
+        <<interface>>
+        Clonar() Unidad
+    }
+    IPrototipoUnidad <|.. Unidad
+    RegistroPrototipos o-- Unidad : plantillas privadas
+    RegistroPrototipos ..> Unidad : clona
+    class Unidad {
+        Clonar() Unidad
+        ClonarConAjustes() Unidad
+    }
+    VarianteUnidadForm --> IPreparacionMision
+    IPreparacionMision <|.. ServicioPreparacion
+    ServicioPreparacion --> RegistroPrototipos
+    Unidad *-- Estadisticas
+    Unidad --> IEstadoPersonaje
+    Unidad --> IEspecie : referencia inmutable

@@ -1,0 +1,18 @@
+classDiagram
+    class IBuilderUnidad {
+        <<interface>>
+        DefinirIdentidad()
+        SeleccionarRol()
+        ConfigurarEstadisticas()
+        ConfigurarEquipamiento()
+        Ubicar()
+        Construir() Unidad
+    }
+    IBuilderUnidad <|.. UnidadBuilder
+    class DirectorEquipo {
+        CrearExploracion(origen)
+        CrearAsalto(origen)
+    }
+    DirectorEquipo ..> UnidadBuilder
+    ServicioPreparacion ..> UnidadBuilder
+    UnidadBuilder ..> Unidad : crea

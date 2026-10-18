@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1160" viewBox="0 0 1600 1160">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="67" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#166579">Template Method · algoritmo fijo / cuatro roles</text>
+<rect x="500" y="110" width="610" height="345" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="517" y="148" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#166579">«abstract»</text>
+<text x="517" y="189" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">TurnoUnidad</text>
+<polyline points="500,215 1110,215" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="517" y="259" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ EjecutarTurno() [no virtual]</text>
+<text x="517" y="301" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Iniciar() [virtual]</text>
+<text x="517" y="343" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Decidir() [abstracto]</text>
+<text x="517" y="385" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Actuar() [abstracto]</text>
+<text x="517" y="427" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Finalizar() [virtual]</text>
+<rect x="35" y="145" width="410" height="235" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="52" y="192" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">ServicioTurnos</text>
+<polyline points="35,210 445,210" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="52" y="254" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ EjecutarTurno(id)</text>
+<text x="52" y="296" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Crea según el rol</text>
+<text x="52" y="338" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Conserva el historial</text>
+<polyline points="445,270 500,270" fill="none" stroke="#183348" stroke-width="3" stroke-dasharray="10 8"/>
+<polyline points="485.0,277.5 500,270 485.0,262.5" fill="none" stroke="#183348" stroke-width="3"/>
+<rect x="20" y="600" width="360" height="190" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="37" y="647" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">TurnoSoldado</text>
+<polyline points="20,665 380,665" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="37" y="709" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Decidir()</text>
+<text x="37" y="751" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Actuar()</text>
+<polyline points="200,600 200,520 805,520" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="200,790 200,835 805,835" fill="none" stroke="#183348" stroke-width="3" stroke-dasharray="10 8"/>
+<rect x="420" y="600" width="360" height="190" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="437" y="647" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">TurnoMedico</text>
+<polyline points="420,665 780,665" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="437" y="709" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Decidir()</text>
+<text x="437" y="751" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Actuar()</text>
+<polyline points="600,600 600,520 805,520" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="600,790 600,835 805,835" fill="none" stroke="#183348" stroke-width="3" stroke-dasharray="10 8"/>
+<rect x="820" y="600" width="360" height="190" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="837" y="647" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">TurnoFrancotirador</text>
+<polyline points="820,665 1180,665" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="837" y="709" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Decidir()</text>
+<text x="837" y="751" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Actuar()</text>
+<polyline points="1000,600 1000,520 805,520" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="1000,790 1000,835 805,835" fill="none" stroke="#183348" stroke-width="3" stroke-dasharray="10 8"/>
+<rect x="1220" y="600" width="360" height="190" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="1237" y="647" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">TurnoComandante</text>
+<polyline points="1220,665 1580,665" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="1237" y="709" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Decidir()</text>
+<text x="1237" y="751" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348"># Actuar()</text>
+<polyline points="1400,600 1400,520 805,520" fill="none" stroke="#183348" stroke-width="3"/>
+<polyline points="1400,790 1400,835 805,835" fill="none" stroke="#183348" stroke-width="3" stroke-dasharray="10 8"/>
+<polyline points="805,520 805,455" fill="none" stroke="#183348" stroke-width="3"/>
+<polygon points="805,455 816.5,478.0 793.5,478.0" fill="white" stroke="#183348" stroke-width="3"/>
+<polyline points="805,835 805,900" fill="none" stroke="#183348" stroke-width="3" stroke-dasharray="10 8"/>
+<polyline points="797.5,885.0 805,900 812.5,885.0" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="845" y="868" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#183348">usan el mismo contexto de misión</text>
+<rect x="495" y="900" width="620" height="180" fill="#F6FAFC" stroke="#183348" stroke-width="3"/>
+<text x="512" y="947" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#183348">ContextoTurno</text>
+<polyline points="495,965 1115,965" fill="none" stroke="#183348" stroke-width="3"/>
+<text x="512" y="1009" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">+ Mover(...) · Atacar(...) · Curar(...)</text>
+<text x="512" y="1051" font-family="Arial, sans-serif" font-size="30" font-weight="normal" fill="#183348">Referencia a IServicioCombate</text>
+<text x="40" y="1136" font-family="Arial, sans-serif" font-size="25" font-weight="normal" fill="#526875">UML parcial · + público · # protegido · triángulo: herencia/realización · flecha: uso/referencia</text>
+</svg>
